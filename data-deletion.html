@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amel — Veri Silme Talebi</title>
+  <style>
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 24px;
+      color: #1a1a1a;
+      background: #fafafa;
+    }
+    h1 { color: #003828; border-bottom: 2px solid #d4a852; padding-bottom: 8px; }
+    h2 { color: #003828; margin-top: 32px; }
+    .muted { color: #666; font-size: 0.95em; }
+    .card {
+      background: white;
+      border-left: 4px solid #d4a852;
+      padding: 16px 20px;
+      margin: 16px 0;
+      border-radius: 4px;
+    }
+    a { color: #b8912e; }
+    .contact { background: #fef9ec; padding: 16px; border-radius: 8px; margin-top: 24px; }
+  </style>
+</head>
+<body>
+  <h1>Amel — Veri Silme Talebi</h1>
+  <p class="muted">Geliştirici: Emir Güngör · Uygulama: Amel (com.amel.app)</p>
+
+  <h2>Amel verilerinizi nasıl saklar?</h2>
+  <p>
+    Amel tamamen <strong>çevrim dışı (offline-first)</strong> çalışan bir uygulamadır.
+    Hesap oluşturmanız gerekmez, hiçbir verileriniz sunuculara veya üçüncü
+    taraf servislere gönderilmez. Tüm içerik yalnızca cihazınızda yerel
+    olarak saklanır:
+  </p>
+  <div class="card">
+    <ul>
+      <li>Günlük notlarınız ve şükür listeniz</li>
+      <li>Favori ayetler, hadisler ve esma</li>
+      <li>Alışkanlık takibi ve streak verileri</li>
+      <li>Zikir sayacı geçmişi</li>
+      <li>Sağlık (ilaç, egzersiz) kayıtları</li>
+      <li>Kişisel tercihler (tema, dil, namaz hesaplama metodu)</li>
+    </ul>
+  </div>
+  <p>
+    Yalnızca uygulamanın çalışması için gerekli konum bilgisi
+    <strong>yaklaşık (şehir düzeyinde)</strong> olarak, sadece namaz
+    vakitleri ve kıble yönünü hesaplamak amacıyla cihaz üzerinde kullanılır
+    ve saklanmaz.
+  </p>
+
+  <h2>Verilerinizi nasıl silersiniz?</h2>
+
+  <h3>1. Uygulamayı kaldırmak</h3>
+  <p>
+    Amel'i cihazınızdan kaldırdığınızda, uygulamaya ait tüm yerel veri
+    (günlük kayıtları, favoriler, alışkanlıklar, ayarlar) birlikte silinir.
+    Bu en basit ve tam silme yöntemidir.
+  </p>
+  <ul>
+    <li>Ana ekranda Amel simgesine uzun basın</li>
+    <li>"Kaldır" veya "Uygulamayı sil" seçeneğini işaretleyin</li>
+    <li>Cihazın onay istemesi durumunda kabul edin</li>
+  </ul>
+
+  <h3>2. Uygulama içinden veri sıfırlama</h3>
+  <p>
+    Uygulamayı silmeden tüm kişisel verilerinizi sıfırlamak için:
+  </p>
+  <ul>
+    <li>Amel'i açın</li>
+    <li><strong>Menü → Ayarlar</strong> yoluna gidin</li>
+    <li>"Onboarding'i Sıfırla" seçeneğini kullanın (gelecek sürümlerde
+      tam "Verilerimi Sil" seçeneği de eklenecektir)</li>
+  </ul>
+
+  <h3>3. E-posta ile talep</h3>
+  <p>
+    Ek bir talep veya yardım için aşağıdaki adrese e-posta
+    gönderebilirsiniz. Teknik olarak Amel'in geliştiricisi olarak
+    sizin verinize uzaktan erişimimiz yoktur; ancak sürecin tamamlanması
+    ve sorularınız için en geç <strong>7 iş günü içinde</strong>
+    yanıt veriyoruz.
+  </p>
+  <div class="contact">
+    <strong>İletişim:</strong><br>
+    E-posta: <a href="mailto:teodentr@gmail.com">teodentr@gmail.com</a><br>
+    Konu: "Amel Veri Silme Talebi"
+  </div>
+
+  <h2>Hangi veriler silinir?</h2>
+  <p>Yukarıda belirtilen tüm yerel veriler silinir. Saklanan hiçbir veri
+    yoktur — uygulama kaldırıldığı anda ya da cihaz içi sıfırlama
+    yapıldığında, veriler geri alınamaz şekilde kaybolur.</p>
+
+  <h2>Saklama süreleri</h2>
+  <p>
+    Offline-first mimari gereği veriler yalnızca siz aktif olarak silene
+    kadar cihazınızda saklanır. <strong>Herhangi bir otomatik uzaktan
+    saklama süresi yoktur</strong>, çünkü uzak sunuculara hiç veri
+    aktarılmaz.
+  </p>
+
+  <h2>Gizlilik politikası</h2>
+  <p>
+    Uygulamanın tam gizlilik politikası:
+    <a href="https://emirgungor.github.io/amel-privacy/">
+      emirgungor.github.io/amel-privacy
+    </a>
+  </p>
+
+  <p class="muted" style="margin-top:40px;font-size:0.85em;">
+    Son güncelleme: 23 Nisan 2026
+  </p>
+</body>
+</html>
