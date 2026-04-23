@@ -3,7 +3,7 @@
 **Yürürlük tarihi:** 19 Nisan 2026
 **Uygulama:** Amel — İslami Yaşam Asistanı
 **Geliştirici:** Emir Güngör (bireysel geliştirici)
-**İletişim:** emirgungor077@gmail.com
+**İletişim:** application.amel@gmail.com
 
 ---
 
