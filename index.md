@@ -169,5 +169,5 @@ If this policy is updated, the effective date above is refreshed. Significant ch
 
 For questions or requests:
 
-- **Email:** emirgungor077@gmail.com
+- **Email:** application.amel@gmail.com
 - **Developer:** Emir Güngör (independent, Turkey)
