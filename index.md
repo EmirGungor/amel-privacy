@@ -83,7 +83,8 @@ Bu politika güncellenirse, yürürlük tarihi yukarıda yenilenir. Önemli bir 
 
 Sorularınız veya talepleriniz için:
 
-- **E-posta:** emirgungor077@gmail.com
+- **Instagram:** amelapp.tr
+- **E-posta:** application.amel@gmail.com
 - **Geliştirici:** Emir Güngör (bireysel, Türkiye)
 
 ---
