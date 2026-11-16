@@ -34,26 +34,30 @@
 
   <h2>Amel verilerinizi nasıl saklar?</h2>
   <p>
-    Amel tamamen <strong>çevrim dışı (offline-first)</strong> çalışan bir uygulamadır.
-    Hesap oluşturmanız gerekmez, hiçbir verileriniz sunuculara veya üçüncü
-    taraf servislere gönderilmez. Tüm içerik yalnızca cihazınızda yerel
-    olarak saklanır:
+    Amel'de hesap yoktur. İbadet ve kişisel kayıtlarınız yalnızca cihazınızda
+    saklanır ve sunucularımıza gönderilmez:
   </p>
   <div class="card">
     <ul>
       <li>Günlük notlarınız ve şükür listeniz</li>
       <li>Favori ayetler, hadisler ve esma</li>
-      <li>Alışkanlık takibi ve streak verileri</li>
+      <li>Alışkanlık takibi ve seri verileri</li>
       <li>Zikir sayacı geçmişi</li>
       <li>Sağlık (ilaç, egzersiz) kayıtları</li>
       <li>Kişisel tercihler (tema, dil, namaz hesaplama metodu)</li>
     </ul>
   </div>
   <p>
-    Yalnızca uygulamanın çalışması için gerekli konum bilgisi
-    <strong>yaklaşık (şehir düzeyinde)</strong> olarak, sadece namaz
-    vakitleri ve kıble yönünü hesaplamak amacıyla cihaz üzerinde kullanılır
-    ve saklanmaz.
+    Konum yalnızca namaz vakitleri ve kıble yönü için cihaz üzerinde kullanılır,
+    hiçbir yere gönderilmez.
+  </p>
+  <p>
+    Cihaz dışında tutulan sınırlı veriler şunlardır (ayrıntılar gizlilik
+    politikasında): anonim kullanıcı kimliğine bağlı Rehber kullanım sayacı
+    (soru sayısı, mesaj içeriği değil), kullanım istatistikleri (Google Firebase
+    Analytics), reklam ölçümü olayları (Meta, TikTok) ve abonelik kayıtları
+    (RevenueCat). Rehber mesajları yanıt üretmek için Anthropic'e iletilir;
+    sunucumuz mesaj içeriğini kaydetmez.
   </p>
 
   <h2>Verilerinizi nasıl silersiniz?</h2>
@@ -70,24 +74,13 @@
     <li>Cihazın onay istemesi durumunda kabul edin</li>
   </ul>
 
-  <h3>2. Uygulama içinden veri sıfırlama</h3>
+  <h3>2. E-posta ile talep</h3>
   <p>
-    Uygulamayı silmeden tüm kişisel verilerinizi sıfırlamak için:
-  </p>
-  <ul>
-    <li>Amel'i açın</li>
-    <li><strong>Menü → Ayarlar</strong> yoluna gidin</li>
-    <li>"Onboarding'i Sıfırla" seçeneğini kullanın (gelecek sürümlerde
-      tam "Verilerimi Sil" seçeneği de eklenecektir)</li>
-  </ul>
-
-  <h3>3. E-posta ile talep</h3>
-  <p>
-    Ek bir talep veya yardım için aşağıdaki adrese e-posta
-    gönderebilirsiniz. Teknik olarak Amel'in geliştiricisi olarak
-    sizin verinize uzaktan erişimimiz yoktur; ancak sürecin tamamlanması
-    ve sorularınız için en geç <strong>7 iş günü içinde</strong>
-    yanıt veriyoruz.
+    Cihaz dışındaki verilerin (Rehber kullanım sayacı, analitik veriler)
+    silinmesi için aşağıdaki adrese e-posta gönderebilirsiniz. Hesap
+    olmadığından, kayıtlarınızı bulabilmemiz için hangi platformu (iOS/Android)
+    kullandığınızı belirtin. Talepler en geç <strong>30 gün</strong> içinde
+    yanıtlanır.
   </p>
   <div class="contact">
     <strong>İletişim:</strong><br>
@@ -95,17 +88,17 @@
     Konu: "Amel Veri Silme Talebi"
   </div>
 
-  <h2>Hangi veriler silinir?</h2>
-  <p>Yukarıda belirtilen tüm yerel veriler silinir. Saklanan hiçbir veri
-    yoktur — uygulama kaldırıldığı anda ya da cihaz içi sıfırlama
-    yapıldığında, veriler geri alınamaz şekilde kaybolur.</p>
-
   <h2>Saklama süreleri</h2>
+  <ul>
+    <li>Cihazdaki veriler: uygulamayı silene kadar.</li>
+    <li>Rehber kullanım sayacı: son kullanımdan 12 ay sonra otomatik silinir.</li>
+    <li>Sunucu teknik kayıtları: 30 gün.</li>
+    <li>Firebase Analytics: en fazla 14 ay.</li>
+    <li>Abonelik kayıtları: abonelik ilişkisi ve yasal yükümlülükler süresince.</li>
+  </ul>
   <p>
-    Offline-first mimari gereği veriler yalnızca siz aktif olarak silene
-    kadar cihazınızda saklanır. <strong>Herhangi bir otomatik uzaktan
-    saklama süresi yoktur</strong>, çünkü uzak sunuculara hiç veri
-    aktarılmaz.
+    Uygulamayı silmek aboneliği iptal etmez. İptal için iOS'ta Ayarlar → Apple
+    Kimliği → Abonelikler, Android'de Google Play → Ödemeler ve abonelikler.
   </p>
 
   <h2>Gizlilik politikası</h2>
@@ -117,7 +110,7 @@
   </p>
 
   <p class="muted" style="margin-top:40px;font-size:0.85em;">
-    Son güncelleme: 23 Nisan 2026
+    Son güncelleme: 16 Kasım 2026
   </p>
 </body>
 </html>
